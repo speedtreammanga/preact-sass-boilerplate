@@ -1,0 +1,38 @@
+{
+  "name": "preact-test-1",
+  "version": "0.1.0",
+  "description": "testing out preact build project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run build && NODE_ENV=development webpack-dev-server --inline --progress",
+    "serve": "serve build -s -c 1",
+    "help": "serve help",
+    "build": "webpack --progress",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.3.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "preact": "^8.2.7",
+    "preact-compat": "^3.18.0",
+    "serve": "^6.4.9",
+    "source-map-loader": "^0.2.3",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "babel-preset-es2016": "^6.24.1"
+  }
+}

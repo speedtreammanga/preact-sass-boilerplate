@@ -1,0 +1,13 @@
+{
+	"name": "Preact Test 1",
+	"short_name": "PreactTest1",
+	"display": "standalone",
+	"background_color": "#fff",
+	"theme_color": "aliceblue",
+	"description": "A Preact boillerplate",
+	"icons": [{
+	  "src": "./favicon.ico",
+	  "sizes": "48x48",
+	  "type": "image/ico"
+	}]
+  }
